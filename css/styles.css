@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
     color:var(--main-title-text);
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -421,6 +421,7 @@ color: var(--brand-blue-color);
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
+    background-color: var(--secondary-bg-color);
 }
 
 .benefits-title.clock::before {
@@ -431,6 +432,7 @@ color: var(--brand-blue-color);
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
+    background-color: var(--secondary-bg-color);
 }
 
 .benefits-title.laptop::before {
@@ -441,6 +443,7 @@ color: var(--brand-blue-color);
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
+    background-color: var(--secondary-bg-color);
 }
 
 .benefits-title.astronaut::before {
@@ -451,6 +454,7 @@ color: var(--brand-blue-color);
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
+    background-color: var(--secondary-bg-color);
 }
 
 .benefits-title {
@@ -553,7 +557,7 @@ color: var(--brand-blue-color);
 
 .portrait-description {
     padding-top: 30px;
-    padding-bottom: 16px;
+    padding-bottom: 30px;
 
 }
 
@@ -761,6 +765,7 @@ color: var(--brand-blue-color);
 .connect-title {
 margin: 0 0 20px;
 
+font-weight: 700;
 font-size: 14px;
 line-height: 16px;
 text-transform: uppercase;
