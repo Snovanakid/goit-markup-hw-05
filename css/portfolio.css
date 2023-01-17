@@ -131,17 +131,6 @@ color: var(--brand-blue-color);
     padding: 0;
 }
 
-/* .contact-links .mail:hover,
-.contact-links .mail:focus {
-    color: var(--brand-blue-color);
-} */
-
-
-/* .contact-links .phone:hover,
-.contact-links .phone:focus {
-    color: var(--brand-blue-color);
-} */
-
 .icon-mail:hover .icon-envelope {
     fill: var(--brand-blue-color);
 }
@@ -180,8 +169,6 @@ color: var(--brand-blue-color);
 .phone:focus .icon-smartphone {
     fill: var(--brand-blue-color);
 }
-
-
 
 .icon-phone {
     display: flex;
@@ -223,7 +210,6 @@ color: var(--brand-blue-color);
 
         transition: color 250ms var(--timing-function);
 }
-
 
 /* ---------------MAIN--------------------- */
 /* ---------------MAIN--------------------- */
@@ -417,8 +403,6 @@ color: var(--brand-blue-color);
 .phone-footer:focus {
     color: var(--brand-blue-color);
 }
-
-
 
 /* -----------------LOGOS FOOTER ----------- */
 /* -----------------LOGOS FOOTER ----------- */
