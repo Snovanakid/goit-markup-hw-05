@@ -39,7 +39,7 @@
     <section class="hero">
         <div class="container">
                     <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                    <button type="button" class="button-hero">Замовити послугу</button>
+                    <button type="button" class="button-hero" data-modal-open>Замовити послугу</button>
         </div>
     </section>
     <section class="benefits">
@@ -68,9 +68,24 @@
         <div class="container">
             <h2 class="services-title">Чим ми займаємося</h2>
         <ul class="services-list">
-            <li class="services-img"><img src="./images/pc.jpg" alt="Створення програми за допомогою написання коду" width="370" class="services-pictures"></li>
-            <li class="services-img"><img src="./images/notepad.jpg" alt="Вибір макету для створеної програми" width="370" class="services-pictures"></li>
-            <li class="services-img"><img src="./images/img.jpg" alt="Оформлення зовнішнього вигляду програми" width="370" class="services-pictures"></li>
+            <li class="services-img">
+                <div class="services-img-txt">
+                    <img src="./images/pc.jpg" alt="Створення програми за допомогою написання коду" width="370" class="services-pictures">
+                    <p class="services-text">Десктопні додатки</p>
+                </div>
+            </li>
+            <li class="services-img">
+                <div class="services-img-txt">
+                    <img src="./images/notepad.jpg" alt="Вибір макету для створеної програми" width="370" class="services-pictures">
+                    <p class="services-text">Мобільні додатки</p>
+                </div>
+            </li>
+            <li class="services-img">
+                <div class="services-img-txt">
+                    <img src="./images/img.jpg" alt="Оформлення зовнішнього вигляду програми" width="370" class="services-pictures">
+                    <p class="services-text">Дизайнерські рішення</p>
+                </div>
+            </li>
         </ul>
         </div>
     </section>
@@ -332,6 +347,16 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-button" data-modal-close>
+                <svg class="x-button" width="11px" height="11px">
+                    <use href="./images/icons.svg#icon-x-logo"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
 
